@@ -1,42 +1,29 @@
 body {
-  background-color: white;
-  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-bottom: 100px;
+  align-items: center;
+}
+
+.logo-img {
+  margin-top: 20px; /* Adjust the margin as needed to create space between the logo and input field */
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin-top: 10px;
 }
 
-.center-container {
-  text-align: center;
-  flex-direction: column;
-}
-
-.input-container{
+.button-container {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+  margin-top: 10px; /* Adjust the margin as needed to create space between the input field and buttons */
 }
 
-.input{
-  width: 100%;
+.button-container button {
+  margin-right: 5px; /* Adjust the margin as needed to create space between buttons */
 }
 
-.button-container{
-  margin-right: 10px;
-  display: flex;
-  flex-direction:column;
-}
-
-.button1{
-  margin-right: 2px;
-  display: flex;
-  align-self: center;
-}
-
-.button2{
-  margin-left: 2px;
-  display: flex;
-  align-self: center;
+.button-container button:last-child {
+  margin-right: 0; /* Remove the margin from the last button to prevent extra space */
 }
